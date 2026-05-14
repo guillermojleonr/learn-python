@@ -1,7 +1,0 @@
-Create Python executable:
-
-1. pip install pyinstaller
-
-2. Go to the directory where the python file is
-
-3. pyinstaller --windowed --onefile --icon=./logo.ico filename.py

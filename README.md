@@ -110,12 +110,18 @@ Programa que valida direcciones de correo electrónico verificando:
 - Cantidad de puntos en el dominio
 - Bucle de validación con reintentos
 
-## Tecnologías y Librerías Utilizadas
-- Python 3
-- SQLite3
-- Tkinter (GUI)
-- Pickle (Serialización)
-- Re (Expresiones Regulares)
+## Librerías Utilizadas
+- **sqlite3**: Gestión de bases de datos relacionales
+- **tkinter**: Creación de interfaces gráficas (GUI)
+  - `tkinter.messagebox`: Cuadros de diálogo (showinfo, askyesno, showwarning)
+- **pickle**: Serialización y deserialización de objetos Python
+- **re**: Expresiones regulares para búsqueda y validación de patrones
+- **io**: Manejo avanzado de archivos (módulo `open`)
+- **math**: Funciones matemáticas
+- **inspect**: Introspección de objetos (función `isclass`)
+- **setuptools**: Creación y distribución de paquetes Python
+- **doctest**: Testing basado en documentación
+- **hamcrest**: Framework de matchers para testing
 
 ## Estructura del Proyecto
 ```
